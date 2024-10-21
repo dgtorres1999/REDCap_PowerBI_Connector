@@ -7,15 +7,15 @@
     <MezOutputPath>$(OutputPath)$(MsBuildProjectName).mez</MezOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <MezContent Include="REDCap_Connector.pq" />
-    <MezContent Include="REDCap_Connector16.png" />
-    <MezContent Include="REDCap_Connector20.png" />
-    <MezContent Include="REDCap_Connector24.png" />
-    <MezContent Include="REDCap_Connector32.png" />
-    <MezContent Include="REDCap_Connector40.png" />
-    <MezContent Include="REDCap_Connector48.png" />
-    <MezContent Include="REDCap_Connector64.png" />
-    <MezContent Include="REDCap_Connector80.png" />
+    <MezContent Include="REDCap report_records.pq" />
+    <MezContent Include="REDCap report_records16.png" />
+    <MezContent Include="REDCap report_records20.png" />
+    <MezContent Include="REDCap report_records24.png" />
+    <MezContent Include="REDCap report_records32.png" />
+    <MezContent Include="REDCap report_records40.png" />
+    <MezContent Include="REDCap report_records48.png" />
+    <MezContent Include="REDCap report_records64.png" />
+    <MezContent Include="REDCap report_records80.png" />
     <MezContent Include="resources.resx" />
   </ItemGroup>
   <Target Name="BuildMez" AfterTargets="Build" Inputs="@(MezContent)" Outputs="$(MezOutputPath)">
