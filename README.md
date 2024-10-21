@@ -1,5 +1,6 @@
 # Power BI to REDCap Connector
-This is a custom data connector which you can use in Power BI to connect to your REDCap installation. The connector is able to get data from all types of REDCap projects including longitudinal and projects with repeat instruments.<br/>
+<br>This is a custom data connector which you can use in Power BI to connect to your REDCap installation. The connector is able to get data from all types of REDCap projects including longitudinal and projects with repeat instruments.<br/>
+To use the connector dowmnload the.mez located inside Bin/AnyCpu/Debug folder and store it in your local [Documents]\Microsoft Power BI Desktop\Custom Connectors folder.  If the folder doesn't exist, create it.
 You must pass the following parameters when connecting Power BI to REDCap
 <ul>
   <li>REDCap URL</li>
