@@ -16,4 +16,4 @@ You must pass the following parameters when connecting Power BI to REDCap
   <li>Forms</li>
   <li>Events</li>
   </ul>
- 
+
