@@ -14,7 +14,7 @@ You must pass the following parameters when connecting Power BI to REDCap
   <li>Export Survey Fields (Select 'False' for reports)</li>
   <li>Export Data Access Groups (Select 'False' for reports)</li>
   </ul>
- Optional parameters for records you may pass are
+ The following parameters for records are optional. 
  <ul>
   <li>Fields</li>
   <li>Forms</li>
