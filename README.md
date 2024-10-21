@@ -4,13 +4,15 @@ You must pass the following parameters when connecting Power BI to REDCap
 <ul>
   <li>REDCap URL</li>
   <li>Project API Token</li>
+  <li>Select between records or reports</li>
+   <li>Report ID (Only for reports)</li>
   <li>Raw or Label data format</li>
   <li>Raw or Label headers</li>
   <li>Export Checkbox Labels</li>
-  <li>Export Survey Fields</li>
-  <li>Export Data Access Groups</li>
+  <li>Export Survey Fields (Select 'False' for reports)</li>
+  <li>Export Data Access Groups (Select 'False' for reports)</li>
   </ul>
- Optional parameters you may pass are
+ Optional parameters for records you may pass are
  <ul>
   <li>Fields</li>
   <li>Forms</li>
